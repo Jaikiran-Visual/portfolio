@@ -1,21 +1,22 @@
 /* ===================================
    MINIMALIST PROFESSIONAL PORTFOLIO
+   — Black & White Edition
    =================================== */
 
 :root {
-  --bg:          #f9f9f7;
+  --bg:          #ffffff;
   --bg-card:     #ffffff;
-  --bg-dark:     #111110;
-  --border:      #e4e4e0;
-  --border-dark: #2a2a28;
+  --bg-dark:     #0a0a0a;
+  --border:      #e0e0e0;
+  --border-dark: #222222;
 
-  --text:        #111110;
-  --text-muted:  #6b6b67;
-  --text-light:  #9b9b97;
-  --text-inv:    #f9f9f7;
+  --text:        #0a0a0a;
+  --text-muted:  #555555;
+  --text-light:  #999999;
+  --text-inv:    #ffffff;
 
-  --accent:      #2563eb;   /* Single accent: deep blue */
-  --accent-soft: #eff4ff;
+  --accent:      #0a0a0a;   /* Pure black as accent */
+  --accent-soft: #f4f4f4;
 
   --font-sans: 'Plus Jakarta Sans', sans-serif;
   --font-head: 'Outfit', sans-serif;
@@ -643,7 +644,7 @@ section { padding: 6rem 0; }
 .modal-list li::before { content: '→ '; color: var(--accent); font-weight: 700; }
 .modal-code {
   background: var(--bg-dark);
-  color: #a5f3fc;
+  color: #d4d4d4;
   padding: 1rem 1.25rem;
   border-radius: 8px;
   font-family: monospace;
@@ -658,8 +659,8 @@ section { padding: 6rem 0; }
   padding: 0.25rem 0.65rem;
   border-radius: 100px;
   background: var(--accent-soft);
-  color: var(--accent);
-  border: 1px solid #bfdbfe;
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 
 /* =============================
