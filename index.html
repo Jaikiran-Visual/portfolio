@@ -32,6 +32,24 @@
       color: #fff;
     }
     .btn-resume-dl svg { flex-shrink: 0; }
+
+    /* Contact section — single centered panel */
+    .contact-section .contact-wrap {
+      display: flex;
+      justify-content: center;
+    }
+    .contact-section .contact-info {
+      max-width: 560px;
+      text-align: center;
+    }
+    .contact-section .contact-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-section .socials {
+      justify-content: center;
+    }
   </style>
 </head>
 <body>
@@ -386,7 +404,7 @@
       <div class="contact-info">
         <span class="label">Get In Touch</span>
         <h2 class="section-title">Let's work together</h2>
-        <p>I'm actively looking for Marketing Analyst or Digital Marketing Analyst roles. Let's connect and explore how I can add value to your team.</p>
+        <p>I'm actively looking for Marketing Analyst or Digital Marketing Analyst roles. Reach out directly — I'd love to connect.</p>
 
         <div class="contact-details">
           <div class="contact-row">
@@ -406,30 +424,6 @@
         <div class="socials">
           <a href="https://github.com/Jaikiran-Visual" target="_blank" rel="noopener noreferrer" class="social-btn">↗ GitHub</a>
           <a href="https://linkedin.com/in/jaikiran-analyst" target="_blank" rel="noopener noreferrer" class="social-btn">↗ LinkedIn</a>
-        </div>
-      </div>
-
-      <div>
-        <form id="contactForm" class="contact-form">
-          <div class="form-field">
-            <label for="c-name">NAME</label>
-            <input type="text" id="c-name" required placeholder="Your name">
-          </div>
-          <div class="form-field">
-            <label for="c-email">EMAIL</label>
-            <input type="email" id="c-email" required placeholder="your@email.com">
-          </div>
-          <div class="form-field">
-            <label for="c-msg">MESSAGE</label>
-            <textarea id="c-msg" rows="5" required placeholder="Hi Jai Kiran, I came across your portfolio…"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-block">Send Message →</button>
-        </form>
-
-        <div class="form-success" id="formSuccess">
-          <div class="success-check">✅</div>
-          <h3>Message Sent!</h3>
-          <p>Thank you. I'll get back to you as soon as possible.</p>
         </div>
       </div>
 
