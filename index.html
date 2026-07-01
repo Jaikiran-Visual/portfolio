@@ -50,6 +50,37 @@
     .contact-section .socials {
       justify-content: center;
     }
+
+    /* GitHub Contributions */
+    .github-contrib-section {
+      padding: 5rem 0 4rem;
+    }
+    .github-contrib-section .contrib-inner {
+      text-align: center;
+    }
+    .github-contrib-section .contrib-graph {
+      margin: 2rem auto 0;
+      max-width: 900px;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 1.5rem 1.5rem 1rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      overflow-x: auto;
+    }
+    .github-contrib-section .contrib-graph img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .github-contrib-section .contrib-link {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--accent, #01696f);
+      text-decoration: none;
+      opacity: 0.8;
+    }
+    .github-contrib-section .contrib-link:hover { opacity: 1; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -392,6 +423,27 @@
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ========== GITHUB CONTRIBUTIONS ========== -->
+<section class="github-contrib-section">
+  <div class="container">
+    <div class="contrib-inner">
+      <span class="label">Open Source Activity</span>
+      <h2 class="section-title" style="margin-bottom: 0.5rem;">GitHub Contributions</h2>
+      <p style="color: var(--text-muted, #6b7280); font-size: 0.95rem; margin-bottom: 0;">My commit activity over the past year</p>
+      <div class="contrib-graph">
+        <img
+          src="https://ghchart.rshah.org/01696f/Jaikiran-Visual"
+          alt="Jai Kiran's GitHub Contribution Graph"
+          loading="lazy"
+        />
+      </div>
+      <a href="https://github.com/Jaikiran-Visual" target="_blank" rel="noopener noreferrer" class="contrib-link">
+        ↗ View full profile on GitHub
+      </a>
     </div>
   </div>
 </section>
